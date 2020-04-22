@@ -1,0 +1,523 @@
+{
+    "aboutYouControls": {
+        "title": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select a title"
+        },
+        "first_name": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "minLength": 3,
+                "isRequired": true
+            },
+            "errorMessage": "Your name must be at least 2 characters long"
+        },
+        "last_name": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "minLength": 3,
+                "isRequired": true
+            },
+            "errorMessage": "Your name must be at least 2 characters long"
+        },
+        "gender": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select your gender"
+        },
+        "date_of_birth": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDate": true
+            },
+            "errorMessage": "Please provide a valid date E.g. 24/02/2020"
+        },
+        "marital_status": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select your marital status"
+        },
+        "employment_status": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isDropdown": true,
+                "isRequired": true
+            },
+            "errorMessage": "Please select your employment status"
+        },
+        "occupation": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "true",
+            "validationRules": {
+                "isRequired": false
+            }
+        },
+        "telephone": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isPhoneNumber": true,
+                "isRequired": true
+            },
+            "errorMessage": "Please provide a valid phone number"
+        },
+        "email": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isEmail": true
+            },
+            "errorMessage": "Please provide a valid email address"
+        },
+        "first_buyer": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "motor_convic": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        }
+    },
+    "addressControls": {
+      "address": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+            "isRequired": false
+        }
+              },
+      "address_results": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+          "isRequired": false
+        }
+              },
+      "alter_address": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+          "isRequired": false
+        }
+             },
+      "address_line_1": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+          "isRequired": false
+        }
+          },
+      "address_line_2": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+          "isRequired": false
+        }
+          },
+      "town": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+          "isRequired": false
+        }
+              },
+      "county": {
+        "value": "",                               
+        "touched": "false",
+        "valid": "true",
+        "validationRules": {
+          "isRequired": false
+        }
+             }
+    },
+    "propertyControls": {
+        "own_prop": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "lives_in_prop": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "holiday_home": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "true",
+            "validationRules": {
+                "isRequired": true
+            }
+        },
+        "property_type": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select the type of property"
+        },
+        "year_built": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isYear": true
+            },
+            "errorMessage": "This field must be 4 numbers long E.g. 2020"
+        },
+        "bedrooms": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select the number of bedrooms"
+        },
+        "bathrooms": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select the number of bathrooms"
+        },
+        "heating": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select the heating system"
+        },
+        "burgler_alarm": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "smoke_alarm": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "security_locks": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "basement": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "roof_type": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select the type of roof"
+        },
+        "roof_material": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true,
+                "isDropdown": true
+            },
+            "errorMessage": "Please select the type of roof material"
+        },
+        "extension": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "ex_roof_type": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "true",
+            "validationRules": {
+                "isRequired": false
+            }
+        },
+        "ex_roof_material": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "true",
+            "validationRules": {
+                "isRequired": false
+            }
+        },
+        "occupied": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "smokers": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "subsidence": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "flooding": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "neighbour": {
+            "value": "",                               
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please selct an option"
+        }
+    },
+    "coverControls": {
+        "policy_start": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isDate": true,
+                "isRequired": true
+            },
+            "errorMessage": "Please provide a valid date E.g. 24/04/2020"
+        },
+        "build_cover": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isBuildCover": true,
+                "isRequired": true
+            },
+            "errorMessage": "This field must be at least 6 numbers E.g. 250,000"
+        },
+        "con_cover": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isContentsCover": true,
+                "isRequired": true
+            },
+            "errorMessage": "This field must be at least 5 number long E.g. 25,000"
+        },
+        "vol_excess": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isExcessCover": true,
+                "isRequired": true
+            },
+            "errorMessage": "This field must be at least 3 numbers long E.g. 800"
+        },
+        "acc_damage": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        },
+        "pre_insured": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isRequired": true
+            },
+            "errorMessage": "Please select an option"
+        }
+    },
+    "oldCoverControls": {
+        "policy_end": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isDate": true,
+                "isRequired": true
+            },
+            "errorMessage": "Please provide a valid date E.g. 24/04/2020"
+        },
+        "pre_insurance": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "minLength": 3,
+                "isRequired": true
+            },
+            "errorMessage": "This field must be at least 3 characters long"
+        },
+        "policy_num": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "true",
+            "validationRules": {
+                "isRequired": false
+            }
+        },
+        "years_pre_insurer": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "minLength": 1,
+                "isRequired": true
+            },
+            "errorMessage": "Please select the number of years you were with your previous insurer"
+        },
+        "no_claims": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "minLength": 1,
+                "isRequired": true
+            },
+            "errorMessage": "How many years have you had no claims"
+        }
+    },
+    "termsControls": {
+        "privacy_policy": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isCheckbox": true,
+                "isRequired": true
+            },
+            "errorMessage": "Please agree to the privacy policy"
+        },
+        "offers": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "true",
+            "validationRules": {
+                "isRequired": false
+            },
+            "errorMessage": ""
+        },
+        "terms": {
+            "value": "",                                 
+            "touched": "false",
+            "valid": "false",
+            "validationRules": {
+                "isCheckbox": true,
+                "isRequired": true
+            },
+            "errorMessage": "Please accept the terms and conditions"
+        }
+    }
+}
